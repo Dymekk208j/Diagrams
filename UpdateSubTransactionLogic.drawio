@@ -49,9 +49,6 @@
         <mxCell id="hTxyKJca5dO1qKFIIcx8-11" value="Zsumuj kwoty wszystkich subtransakcji" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="160" y="460" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="hTxyKJca5dO1qKFIIcx8-14" value="" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;startSize=8;endSize=8;" edge="1" parent="1" source="hTxyKJca5dO1qKFIIcx8-12" target="hTxyKJca5dO1qKFIIcx8-13">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
         <mxCell id="hTxyKJca5dO1qKFIIcx8-29" value="" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;startSize=8;endSize=8;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="hTxyKJca5dO1qKFIIcx8-12" target="hTxyKJca5dO1qKFIIcx8-33">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="220" y="740" as="targetPoint" />
@@ -60,14 +57,14 @@
             </Array>
           </mxGeometry>
         </mxCell>
+        <mxCell id="hTxyKJca5dO1qKFIIcx8-78" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=12;startSize=8;endSize=8;" edge="1" parent="1" source="hTxyKJca5dO1qKFIIcx8-12" target="hTxyKJca5dO1qKFIIcx8-77">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="hTxyKJca5dO1qKFIIcx8-12" value="X = Transakcja.kwota - suma" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="145" y="560" width="150" height="120" as="geometry" />
         </mxCell>
-        <mxCell id="hTxyKJca5dO1qKFIIcx8-13" value="" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-100" y="591" width="120" height="60" as="geometry" />
-        </mxCell>
         <mxCell id="hTxyKJca5dO1qKFIIcx8-20" value="X &amp;gt; 0" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=16;" vertex="1" parent="1">
-          <mxGeometry x="84" y="591" width="60" height="30" as="geometry" />
+          <mxGeometry x="60" y="591" width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="hTxyKJca5dO1qKFIIcx8-24" value="X &amp;lt; 0" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=16;" vertex="1" parent="1">
           <mxGeometry x="310" y="591" width="60" height="30" as="geometry" />
@@ -195,6 +192,15 @@
         </mxCell>
         <mxCell id="hTxyKJca5dO1qKFIIcx8-70" value="Zapisz transakcja" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="480" y="1285" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="hTxyKJca5dO1qKFIIcx8-81" value="" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;startSize=8;endSize=8;" edge="1" parent="1" source="hTxyKJca5dO1qKFIIcx8-77" target="hTxyKJca5dO1qKFIIcx8-79">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="hTxyKJca5dO1qKFIIcx8-77" value="Pobierz pusta subtransakcje" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-110" y="640" width="90" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="hTxyKJca5dO1qKFIIcx8-79" value="Czy istnieje pusta subyransakcja" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-125" y="730" width="120" height="120" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
