@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36" version="26.2.6">
   <diagram name="Strona-1" id="2bumSR_f1kuaF3T-Jc8Z">
-    <mxGraphModel dx="1930" dy="855" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1458" dy="589" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -235,7 +235,7 @@
         <mxCell id="i0WnAXnCLcfM3f3cONt--41" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="i0WnAXnCLcfM3f3cONt--33" target="i0WnAXnCLcfM3f3cONt--40">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="i0WnAXnCLcfM3f3cONt--33" value="PustaSt.Kwota -= Diff" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="i0WnAXnCLcfM3f3cONt--33" value="PustaSt.Kwota -= Abs(diff)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="929" y="1124" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="i0WnAXnCLcfM3f3cONt--44" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="i0WnAXnCLcfM3f3cONt--34" target="i0WnAXnCLcfM3f3cONt--42">
@@ -280,7 +280,7 @@
         <mxCell id="i0WnAXnCLcfM3f3cONt--58" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="i0WnAXnCLcfM3f3cONt--55" target="i0WnAXnCLcfM3f3cONt--57">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="i0WnAXnCLcfM3f3cONt--55" value="STs[0].Kwota -= Diff" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="i0WnAXnCLcfM3f3cONt--55" value="STs[0].Kwota -= Abs(diff);" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="1297" y="1011" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="i0WnAXnCLcfM3f3cONt--60" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="i0WnAXnCLcfM3f3cONt--57" target="i0WnAXnCLcfM3f3cONt--59">
@@ -295,7 +295,7 @@
         <mxCell id="i0WnAXnCLcfM3f3cONt--67" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="i0WnAXnCLcfM3f3cONt--61" target="i0WnAXnCLcfM3f3cONt--66">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="i0WnAXnCLcfM3f3cONt--61" value="KwotaDoPrzeprocesowania&lt;br&gt;(KdP) = Diff" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="i0WnAXnCLcfM3f3cONt--61" value="KwotaDoPrzeprocesowania&lt;br&gt;(KdP) = Abs(diff)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="1691" y="1008" width="157" height="60" as="geometry" />
         </mxCell>
         <mxCell id="i0WnAXnCLcfM3f3cONt--69" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="i0WnAXnCLcfM3f3cONt--66" target="i0WnAXnCLcfM3f3cONt--68">
