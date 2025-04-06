@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36" version="26.2.6">
   <diagram name="Strona-1" id="2bumSR_f1kuaF3T-Jc8Z">
-    <mxGraphModel dx="1458" dy="589" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1903" dy="837" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -389,7 +389,7 @@
         <mxCell id="i0WnAXnCLcfM3f3cONt--117" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="i0WnAXnCLcfM3f3cONt--118" target="i0WnAXnCLcfM3f3cONt--120">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="i0WnAXnCLcfM3f3cONt--118" value="KwotaDoPrzeprocesowania&lt;br&gt;(KdP) = NoCatDiff" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="i0WnAXnCLcfM3f3cONt--118" value="KwotaDoPrzeprocesowania&lt;br&gt;(KdP) = Abs(noCatDiff)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="579" y="1369" width="157" height="60" as="geometry" />
         </mxCell>
         <mxCell id="i0WnAXnCLcfM3f3cONt--119" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="i0WnAXnCLcfM3f3cONt--120" target="i0WnAXnCLcfM3f3cONt--125">
