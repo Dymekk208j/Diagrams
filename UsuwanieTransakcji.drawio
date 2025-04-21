@@ -14,7 +14,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="MZsx90_jnkxvjDxm-qdz-2" value="Pobierz transakcje" style="whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="859" y="123" width="120" height="67" as="geometry" />
+          <mxGeometry x="859" y="114" width="120" height="67" as="geometry" />
         </mxCell>
         <mxCell id="MZsx90_jnkxvjDxm-qdz-11" value="Tak" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=12;startSize=8;endSize=8;edgeStyle=orthogonalEdgeStyle;" parent="1" source="MZsx90_jnkxvjDxm-qdz-6" target="MZsx90_jnkxvjDxm-qdz-10" edge="1">
           <mxGeometry x="-0.5844" y="11" relative="1" as="geometry">
@@ -78,7 +78,7 @@
             <mxPoint x="893" y="757" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="MZsx90_jnkxvjDxm-qdz-21" value="Zwiększ stan konta o kwotę transakcji" style="rounded=0;whiteSpace=wrap;html=1;aspect=fixed;" parent="1" vertex="1">
+        <mxCell id="MZsx90_jnkxvjDxm-qdz-21" value="Zwiększ stan konta źródłowego&amp;nbsp;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;o kwotę transakcji&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;aspect=fixed;" parent="1" vertex="1">
           <mxGeometry x="839.5" y="534" width="160" height="80" as="geometry" />
         </mxCell>
         <mxCell id="2LHHnjIRlYTrbhcwWQH5-30" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="MZsx90_jnkxvjDxm-qdz-22" target="MZsx90_jnkxvjDxm-qdz-6">
@@ -89,7 +89,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="MZsx90_jnkxvjDxm-qdz-22" value="Zmniejsz stan konta o kwotę transakcji" style="rounded=0;whiteSpace=wrap;html=1;aspect=fixed;" parent="1" vertex="1">
+        <mxCell id="MZsx90_jnkxvjDxm-qdz-22" value="Zmniejsz stan konta źródłowego o kwotę transakcji" style="rounded=0;whiteSpace=wrap;html=1;aspect=fixed;" parent="1" vertex="1">
           <mxGeometry x="654" y="421" width="160" height="80" as="geometry" />
         </mxCell>
         <mxCell id="MZsx90_jnkxvjDxm-qdz-26" value="Stop" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" parent="1" vertex="1">
@@ -104,13 +104,21 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="2LHHnjIRlYTrbhcwWQH5-16" value="Usuń transakcje" style="rounded=0;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
-          <mxGeometry x="876" y="229" width="86" height="43" as="geometry" />
+          <mxGeometry x="876" y="220" width="86" height="43" as="geometry" />
         </mxCell>
         <mxCell id="2LHHnjIRlYTrbhcwWQH5-27" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="2LHHnjIRlYTrbhcwWQH5-23" target="2LHHnjIRlYTrbhcwWQH5-24">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="2LHHnjIRlYTrbhcwWQH5-23" value="Zwiększ stan źródłowego konta o kwotę transakcji" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="1079" y="408" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="2LHHnjIRlYTrbhcwWQH5-37" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="2LHHnjIRlYTrbhcwWQH5-24" target="MZsx90_jnkxvjDxm-qdz-6">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1139" y="695" />
+              <mxPoint x="920" y="695" />
+            </Array>
+          </mxGeometry>
         </mxCell>
         <mxCell id="2LHHnjIRlYTrbhcwWQH5-24" value="Zmniejsz stan docelowego konta o kwotę transakcji" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="1079" y="526" width="120" height="60" as="geometry" />
