@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:140.0) Gecko/20100101 Firefox/140.0" version="28.0.3">
   <diagram name="Strona-1" id="BejKIdwOO_Ky1SbAvDjS">
-    <mxGraphModel dx="4110" dy="1611" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1598" dy="627" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -142,14 +142,28 @@
         <mxCell id="DvB-1CCMWiWBNf0BFEtE-41" value="Usuń subtransakcje" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="753.5" y="1407" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="DvB-1CCMWiWBNf0BFEtE-47" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="DvB-1CCMWiWBNf0BFEtE-42" target="DvB-1CCMWiWBNf0BFEtE-46">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="DvB-1CCMWiWBNf0BFEtE-47" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="DvB-1CCMWiWBNf0BFEtE-42" target="DvB-1CCMWiWBNf0BFEtE-51">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="813.5" y="1607" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="DvB-1CCMWiWBNf0BFEtE-42" value="Usuń transakcje" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="753.5" y="1507" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="DvB-1CCMWiWBNf0BFEtE-46" value="Koniec" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="753.5" y="1607" width="120" height="80" as="geometry" />
+        <mxCell id="DvB-1CCMWiWBNf0BFEtE-48" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="440" y="1754" width="740" height="1080" as="geometry" />
+        </mxCell>
+        <mxCell id="DvB-1CCMWiWBNf0BFEtE-49" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;dashed=1;" vertex="1" parent="DvB-1CCMWiWBNf0BFEtE-48">
+          <mxGeometry y="24" width="740" height="1056" as="geometry" />
+        </mxCell>
+        <mxCell id="DvB-1CCMWiWBNf0BFEtE-50" value="&lt;div&gt;Obsługa trasakcji transferowych&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;fillColor=default;" vertex="1" parent="DvB-1CCMWiWBNf0BFEtE-48">
+          <mxGeometry x="23.454545454545453" width="190" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="DvB-1CCMWiWBNf0BFEtE-51" value="TransakcjeBazowe = Pobierz wszystkie transakcje z subtransakcjami gdzie&amp;nbsp;&lt;br&gt;&lt;div&gt;SourceBankAccount == Request.OldBankAccountId&lt;/div&gt;&lt;div&gt;TransactionType == Transfer&lt;/div&gt;&lt;div&gt;UserId ==&amp;nbsp;Request.UserId&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="DvB-1CCMWiWBNf0BFEtE-48">
+          <mxGeometry x="163.5" y="46" width="420" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="DvB-1CCMWiWBNf0BFEtE-52" value="TransakcjeDocelowe = Pobierz wszystkie transakcje z subtransakcjami gdzie&amp;nbsp;&lt;br&gt;&lt;div&gt;SourceBankAccount == Request.OldBankAccountId&lt;/div&gt;&lt;div&gt;TransactionType == Transfer&lt;/div&gt;&lt;div&gt;UserId ==&amp;nbsp;Request.UserId&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="DvB-1CCMWiWBNf0BFEtE-48">
+          <mxGeometry x="163.5" y="166" width="420" height="90" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
