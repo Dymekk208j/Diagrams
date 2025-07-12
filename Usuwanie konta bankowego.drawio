@@ -4,14 +4,20 @@
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="DvB-1CCMWiWBNf0BFEtE-1" value="Pobierz wszystkie transakcje z subtransakcjami gdzie&amp;nbsp;&lt;br&gt;&lt;div&gt;SourceBankAccount == Request.OldBankAccountId&lt;/div&gt;&lt;div&gt;TransactionType == Wydatek/Dochod&lt;/div&gt;&lt;div&gt;UserId ==&amp;nbsp;Request.UserId&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="827" y="50" width="367" height="90" as="geometry" />
+        <mxCell id="DvB-1CCMWiWBNf0BFEtE-34" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="DvB-1CCMWiWBNf0BFEtE-1" target="DvB-1CCMWiWBNf0BFEtE-25">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="DvB-1CCMWiWBNf0BFEtE-1" value="Transakcje = Pobierz wszystkie transakcje z subtransakcjami gdzie&amp;nbsp;&lt;br&gt;&lt;div&gt;SourceBankAccount == Request.OldBankAccountId&lt;/div&gt;&lt;div&gt;TransactionType == Wydatek/Dochod&lt;/div&gt;&lt;div&gt;UserId ==&amp;nbsp;Request.UserId&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="630" y="580" width="367" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="DvB-1CCMWiWBNf0BFEtE-22" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="DvB-1CCMWiWBNf0BFEtE-2" target="DvB-1CCMWiWBNf0BFEtE-11">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="DvB-1CCMWiWBNf0BFEtE-2" value="&lt;div&gt;OldBankAccountId&lt;/div&gt;&lt;div&gt;NewBankAccountId&lt;/div&gt;&lt;div&gt;ReBalanceAccounts&lt;/div&gt;&lt;div&gt;UserId&lt;/div&gt;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
           <mxGeometry x="315" y="40" width="197" height="70" as="geometry" />
         </mxCell>
         <mxCell id="DvB-1CCMWiWBNf0BFEtE-10" value="" style="group" vertex="1" connectable="0" parent="1">
-          <mxGeometry x="780" y="310" width="550" height="675" as="geometry" />
+          <mxGeometry x="1260" y="220" width="550" height="675" as="geometry" />
         </mxCell>
         <mxCell id="DvB-1CCMWiWBNf0BFEtE-4" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;dashed=1;" vertex="1" parent="DvB-1CCMWiWBNf0BFEtE-10">
           <mxGeometry y="15" width="550" height="660" as="geometry" />
@@ -19,11 +25,125 @@
         <mxCell id="DvB-1CCMWiWBNf0BFEtE-5" value="&lt;div&gt;Obsługa trasakcji dochodu/wydatku&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;fillColor=default;" vertex="1" parent="DvB-1CCMWiWBNf0BFEtE-10">
           <mxGeometry x="10" width="210" height="30" as="geometry" />
         </mxCell>
+        <mxCell id="DvB-1CCMWiWBNf0BFEtE-23" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="DvB-1CCMWiWBNf0BFEtE-11" target="DvB-1CCMWiWBNf0BFEtE-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="DvB-1CCMWiWBNf0BFEtE-11" value="Pobierz OldBankAccount" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="353" y="160" width="120" height="60" as="geometry" />
         </mxCell>
+        <mxCell id="DvB-1CCMWiWBNf0BFEtE-24" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="DvB-1CCMWiWBNf0BFEtE-12" target="DvB-1CCMWiWBNf0BFEtE-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="DvB-1CCMWiWBNf0BFEtE-12" value="Pobierz NewBankAccount" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="353" y="270" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="DvB-1CCMWiWBNf0BFEtE-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="DvB-1CCMWiWBNf0BFEtE-14">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="60" y="560" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="60" y="495" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="DvB-1CCMWiWBNf0BFEtE-20" value="Nie" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="DvB-1CCMWiWBNf0BFEtE-15">
+          <mxGeometry x="-0.743" y="1" relative="1" as="geometry">
+            <mxPoint x="-6" y="-2" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="DvB-1CCMWiWBNf0BFEtE-21" value="Transakcja wielowalutowa" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="DvB-1CCMWiWBNf0BFEtE-15">
+          <mxGeometry x="-0.4526" y="-1" relative="1" as="geometry">
+            <mxPoint x="-2" y="-24" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="DvB-1CCMWiWBNf0BFEtE-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="DvB-1CCMWiWBNf0BFEtE-14" target="DvB-1CCMWiWBNf0BFEtE-1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="850" y="510" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="DvB-1CCMWiWBNf0BFEtE-17" value="Tak" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="DvB-1CCMWiWBNf0BFEtE-16">
+          <mxGeometry x="-0.8189" y="1" relative="1" as="geometry">
+            <mxPoint x="19" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="DvB-1CCMWiWBNf0BFEtE-19" value="Transakcja jednowalutowa" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="DvB-1CCMWiWBNf0BFEtE-16">
+          <mxGeometry x="-0.4935" relative="1" as="geometry">
+            <mxPoint x="13" y="-25" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="DvB-1CCMWiWBNf0BFEtE-14" value="OldBankAccount.CurrencyId&amp;nbsp;&lt;br&gt;&lt;div&gt;==&lt;/div&gt;&lt;div&gt;NewBankAccount. CurrencyId&amp;nbsp;&lt;/div&gt;" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="293" y="380" width="240" height="230" as="geometry" />
+        </mxCell>
+        <mxCell id="DvB-1CCMWiWBNf0BFEtE-28" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="DvB-1CCMWiWBNf0BFEtE-25" target="DvB-1CCMWiWBNf0BFEtE-27">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="DvB-1CCMWiWBNf0BFEtE-25" value="Zaktualizuj wszystkie transakcje z subtransakcjami ustaw&lt;div&gt;SourceBankAccount = Request.NewBankAccountId&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="630" y="710" width="367" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="DvB-1CCMWiWBNf0BFEtE-29" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="DvB-1CCMWiWBNf0BFEtE-27" target="DvB-1CCMWiWBNf0BFEtE-33">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1030" y="1069" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="DvB-1CCMWiWBNf0BFEtE-31" value="Tak" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="DvB-1CCMWiWBNf0BFEtE-29">
+          <mxGeometry x="-0.6632" relative="1" as="geometry">
+            <mxPoint x="14" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="DvB-1CCMWiWBNf0BFEtE-30" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="DvB-1CCMWiWBNf0BFEtE-27" target="DvB-1CCMWiWBNf0BFEtE-36">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="610" y="1069" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="DvB-1CCMWiWBNf0BFEtE-32" value="Nie" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="DvB-1CCMWiWBNf0BFEtE-30">
+          <mxGeometry x="-0.1916" y="3" relative="1" as="geometry">
+            <mxPoint x="27" y="-3" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="DvB-1CCMWiWBNf0BFEtE-27" value="TypWydatku == Dochód" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="728.5" y="878" width="170" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="DvB-1CCMWiWBNf0BFEtE-39" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="DvB-1CCMWiWBNf0BFEtE-33" target="DvB-1CCMWiWBNf0BFEtE-38">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="DvB-1CCMWiWBNf0BFEtE-33" value="Zmniejsz saldo&amp;nbsp;OldBankAccount o sume transakcji" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="997" y="1020" width="150" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="DvB-1CCMWiWBNf0BFEtE-40" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="DvB-1CCMWiWBNf0BFEtE-36" target="DvB-1CCMWiWBNf0BFEtE-37">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="DvB-1CCMWiWBNf0BFEtE-36" value="Zwiększ saldo&amp;nbsp;OldBankAccount o sume transakcji" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="480" y="1020" width="150" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="DvB-1CCMWiWBNf0BFEtE-44" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="DvB-1CCMWiWBNf0BFEtE-37" target="DvB-1CCMWiWBNf0BFEtE-41">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="559" y="1240" />
+              <mxPoint x="814" y="1240" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="DvB-1CCMWiWBNf0BFEtE-37" value="Zmniejsz saldo NewBankAccount o sume transakcji" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="480" y="1120" width="150" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="DvB-1CCMWiWBNf0BFEtE-45" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="DvB-1CCMWiWBNf0BFEtE-38" target="DvB-1CCMWiWBNf0BFEtE-41">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1045" y="1240" />
+              <mxPoint x="814" y="1240" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="DvB-1CCMWiWBNf0BFEtE-38" value="Zwiększ saldo NewBankAccount o sume transakcji" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="997" y="1120" width="150" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="DvB-1CCMWiWBNf0BFEtE-43" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="DvB-1CCMWiWBNf0BFEtE-41" target="DvB-1CCMWiWBNf0BFEtE-42">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="DvB-1CCMWiWBNf0BFEtE-41" value="Usuń subtransakcje" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="753.5" y="1300" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="DvB-1CCMWiWBNf0BFEtE-42" value="Usuń transakcje" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="753.5" y="1400" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
