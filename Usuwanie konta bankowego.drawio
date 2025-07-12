@@ -16,15 +16,6 @@
         <mxCell id="DvB-1CCMWiWBNf0BFEtE-2" value="&lt;div&gt;OldBankAccountId&lt;/div&gt;&lt;div&gt;NewBankAccountId&lt;/div&gt;&lt;div&gt;ReBalanceAccounts&lt;/div&gt;&lt;div&gt;UserId&lt;/div&gt;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" parent="1" vertex="1">
           <mxGeometry x="315" y="40" width="197" height="70" as="geometry" />
         </mxCell>
-        <mxCell id="DvB-1CCMWiWBNf0BFEtE-10" value="" style="group" parent="1" vertex="1" connectable="0">
-          <mxGeometry x="440" y="640" width="740" height="1080" as="geometry" />
-        </mxCell>
-        <mxCell id="DvB-1CCMWiWBNf0BFEtE-4" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;dashed=1;" parent="DvB-1CCMWiWBNf0BFEtE-10" vertex="1">
-          <mxGeometry y="24" width="740" height="1056" as="geometry" />
-        </mxCell>
-        <mxCell id="DvB-1CCMWiWBNf0BFEtE-5" value="&lt;div&gt;Obsługa trasakcji dochodu/wydatku&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;fillColor=default;" parent="DvB-1CCMWiWBNf0BFEtE-10" vertex="1">
-          <mxGeometry x="13.454545454545455" width="210" height="30" as="geometry" />
-        </mxCell>
         <mxCell id="DvB-1CCMWiWBNf0BFEtE-23" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="DvB-1CCMWiWBNf0BFEtE-11" target="DvB-1CCMWiWBNf0BFEtE-12" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
@@ -37,9 +28,9 @@
         <mxCell id="DvB-1CCMWiWBNf0BFEtE-12" value="Pobierz NewBankAccount" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="353" y="270" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="DvB-1CCMWiWBNf0BFEtE-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="DvB-1CCMWiWBNf0BFEtE-14" edge="1" target="3IW6wj1cdD2kybtj72PN-42">
+        <mxCell id="DvB-1CCMWiWBNf0BFEtE-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="DvB-1CCMWiWBNf0BFEtE-14" edge="1" target="3IW6wj1cdD2kybtj72PN-44">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="60" y="560" as="targetPoint" />
+            <mxPoint x="-18.5" y="687" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="DvB-1CCMWiWBNf0BFEtE-20" value="Nie" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="DvB-1CCMWiWBNf0BFEtE-15" vertex="1" connectable="0">
@@ -216,7 +207,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="3IW6wj1cdD2kybtj72PN-39" value="" style="group" vertex="1" connectable="0" parent="1">
-          <mxGeometry x="-387" y="640" width="740" height="1080" as="geometry" />
+          <mxGeometry x="-387" y="717" width="740" height="1080" as="geometry" />
         </mxCell>
         <mxCell id="3IW6wj1cdD2kybtj72PN-40" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;dashed=1;" vertex="1" parent="3IW6wj1cdD2kybtj72PN-39">
           <mxGeometry y="24" width="740" height="1056" as="geometry" />
@@ -224,8 +215,20 @@
         <mxCell id="3IW6wj1cdD2kybtj72PN-41" value="&lt;div&gt;Obsługa trasakcji dochodu/wydatku&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;fillColor=default;" vertex="1" parent="3IW6wj1cdD2kybtj72PN-39">
           <mxGeometry x="13.454545454545455" width="210" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="3IW6wj1cdD2kybtj72PN-42" value="&lt;div&gt;ExchangeRate = Kurs wymiany dla&amp;nbsp;OldBankAccount.CurrencyId&amp;nbsp;-&amp;gt; NewBankAccount.CurrencyId&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Dla aktualnego dnia&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="3IW6wj1cdD2kybtj72PN-39">
-          <mxGeometry x="227" y="60" width="333" height="100" as="geometry" />
+        <mxCell id="3IW6wj1cdD2kybtj72PN-47" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="3IW6wj1cdD2kybtj72PN-39" source="3IW6wj1cdD2kybtj72PN-43" target="3IW6wj1cdD2kybtj72PN-45">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="3IW6wj1cdD2kybtj72PN-43" value="Transakcje = Pobierz wszystkie transakcje z subtransakcjami gdzie&amp;nbsp;&lt;br&gt;&lt;div&gt;SourceBankAccount == Request.OldBankAccountId&lt;/div&gt;&lt;div&gt;TransactionType == Wydatek/Dochod&lt;/div&gt;&lt;div&gt;UserId ==&amp;nbsp;Request.UserId&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="3IW6wj1cdD2kybtj72PN-39">
+          <mxGeometry x="186.5" y="190" width="367" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="3IW6wj1cdD2kybtj72PN-46" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="3IW6wj1cdD2kybtj72PN-39" source="3IW6wj1cdD2kybtj72PN-44" target="3IW6wj1cdD2kybtj72PN-43">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="3IW6wj1cdD2kybtj72PN-44" value="&lt;div&gt;NewExchangeRate = Kurs wymiany dla&amp;nbsp;OldBankAccount.CurrencyId&amp;nbsp;-&amp;gt; NewBankAccount.CurrencyId&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Dla aktualnego dnia&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="3IW6wj1cdD2kybtj72PN-39">
+          <mxGeometry x="203.5" y="53" width="333" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="3IW6wj1cdD2kybtj72PN-45" value="Zaktualizuj wszystkie transakcje z subtransakcjami ustaw&lt;div&gt;SourceBankAccount = Request.NewBankAccountId&lt;/div&gt;&lt;div&gt;ExchangeRate =&amp;nbsp;NewExchangeRate&lt;/div&gt;&lt;div&gt;Amount = OriginalAmount * NewExchangeRate&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="3IW6wj1cdD2kybtj72PN-39">
+          <mxGeometry x="186.5" y="313" width="367" height="120" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
