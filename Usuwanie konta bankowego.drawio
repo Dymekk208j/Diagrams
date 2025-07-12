@@ -1,9 +1,30 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:140.0) Gecko/20100101 Firefox/140.0" version="28.0.3">
   <diagram name="Strona-1" id="BejKIdwOO_Ky1SbAvDjS">
-    <mxGraphModel dx="2877" dy="1128" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1984" dy="778" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="DvB-1CCMWiWBNf0BFEtE-1" value="Pobierz wszystkie transakcje z subtransakcjami gdzie&amp;nbsp;&lt;br&gt;&lt;div&gt;SourceBankAccount == Request.OldBankAccountId&lt;/div&gt;&lt;div&gt;TransactionType == Wydatek/Dochod&lt;/div&gt;&lt;div&gt;UserId ==&amp;nbsp;Request.UserId&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="827" y="50" width="367" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="DvB-1CCMWiWBNf0BFEtE-2" value="&lt;div&gt;OldBankAccountId&lt;/div&gt;&lt;div&gt;NewBankAccountId&lt;/div&gt;&lt;div&gt;ReBalanceAccounts&lt;/div&gt;&lt;div&gt;UserId&lt;/div&gt;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="315" y="40" width="197" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="DvB-1CCMWiWBNf0BFEtE-10" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="780" y="310" width="550" height="675" as="geometry" />
+        </mxCell>
+        <mxCell id="DvB-1CCMWiWBNf0BFEtE-4" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;dashed=1;" vertex="1" parent="DvB-1CCMWiWBNf0BFEtE-10">
+          <mxGeometry y="15" width="550" height="660" as="geometry" />
+        </mxCell>
+        <mxCell id="DvB-1CCMWiWBNf0BFEtE-5" value="&lt;div&gt;Obsługa trasakcji dochodu/wydatku&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;fillColor=default;" vertex="1" parent="DvB-1CCMWiWBNf0BFEtE-10">
+          <mxGeometry x="10" width="210" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="DvB-1CCMWiWBNf0BFEtE-11" value="Pobierz OldBankAccount" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="353" y="160" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="DvB-1CCMWiWBNf0BFEtE-12" value="Pobierz NewBankAccount" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="353" y="270" width="120" height="60" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
