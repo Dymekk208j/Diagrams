@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:140.0) Gecko/20100101 Firefox/140.0" version="28.0.3">
   <diagram name="Strona-1" id="BejKIdwOO_Ky1SbAvDjS">
-    <mxGraphModel dx="2613" dy="778" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="3874" dy="1327" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -207,10 +207,10 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="3IW6wj1cdD2kybtj72PN-39" value="" style="group" vertex="1" connectable="0" parent="1">
-          <mxGeometry x="-387" y="717" width="740" height="1080" as="geometry" />
+          <mxGeometry x="-387" y="611" width="740" height="1160" as="geometry" />
         </mxCell>
         <mxCell id="3IW6wj1cdD2kybtj72PN-40" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;dashed=1;" vertex="1" parent="3IW6wj1cdD2kybtj72PN-39">
-          <mxGeometry y="24" width="740" height="1056" as="geometry" />
+          <mxGeometry y="24" width="740" height="1136" as="geometry" />
         </mxCell>
         <mxCell id="3IW6wj1cdD2kybtj72PN-41" value="&lt;div&gt;Obsługa trasakcji dochodu/wydatku&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;fillColor=default;" vertex="1" parent="3IW6wj1cdD2kybtj72PN-39">
           <mxGeometry x="13.454545454545455" width="210" height="30" as="geometry" />
@@ -299,6 +299,15 @@
         </mxCell>
         <mxCell id="3IW6wj1cdD2kybtj72PN-68" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="3IW6wj1cdD2kybtj72PN-61" target="3IW6wj1cdD2kybtj72PN-62">
           <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="3IW6wj1cdD2kybtj72PN-72" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="450" y="620" width="740" height="1150" as="geometry" />
+        </mxCell>
+        <mxCell id="3IW6wj1cdD2kybtj72PN-69" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;dashed=1;" vertex="1" parent="3IW6wj1cdD2kybtj72PN-72">
+          <mxGeometry y="17" width="740" height="1133" as="geometry" />
+        </mxCell>
+        <mxCell id="3IW6wj1cdD2kybtj72PN-71" value="&lt;div&gt;Obsługa trasakcji dochodu/wydatku&lt;/div&gt;" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="3IW6wj1cdD2kybtj72PN-72">
+          <mxGeometry x="20" width="220" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
